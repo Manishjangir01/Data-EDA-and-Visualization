@@ -3,6 +3,10 @@
 Exploratory Data Analysis (EDA) and data visualization in Python, covering
 the main chart types in Matplotlib, Seaborn and Plotly.
 
+![Chart gallery](assets/chart_gallery.png)
+
+*A few of the charts from the notebooks: line, stacked bar, pie, radar, 3D scatter, 3D surface, contour, hexbin and parallel coordinates.*
+
 ## Charts covered
 
 - Line plot, multiple line plot
@@ -53,3 +57,7 @@ Python, NumPy, Pandas, Matplotlib, Seaborn, Plotly
 - College project
 - Internship submission
 - Resume and GitHub portfolio
+
+## License
+
+MIT, see [LICENSE](LICENSE).
