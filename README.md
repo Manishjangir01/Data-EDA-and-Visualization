@@ -1,44 +1,55 @@
-# Data-EDA-and-Visualization
-Exploratory Data Analysis &amp; Visualization using Python
-# Data EDA & Visualization Project
+# Data EDA and Visualization
 
-## 📌 Overview
-This project covers Exploratory Data Analysis (EDA) and Data Visualization
-using Python libraries.
+Exploratory Data Analysis (EDA) and data visualization in Python, covering
+the main chart types in Matplotlib, Seaborn and Plotly.
 
-## 📊 Topics Covered
-- Line Plot
-- Bar Chart (Vertical & Horizontal)
-- Scatter Plot
+## Charts covered
+
+- Line plot, multiple line plot
+- Bar chart (vertical and horizontal), stacked bar chart
+- Scatter plot
 - Histogram
-- Pie Chart
-- Box Plot
-- Error Bar Plot
+- Pie chart
+- Box plot
+- Error bar plot
 - Subplots
-- Stacked Bar Chart
-- Multiple Line Plot
-- Filled Area Chart
-- Radar Chart
-- 3D Scatter Plot
-- 3D Surface Plot
-- Contour Plot
-- Hexbin Plot
-- Polar Plot
-- Parallel Coordinates
-- NumPy, Pandas & Matplotlib Basics
+- Filled area chart
+- Radar chart
+- 3D scatter plot and 3D surface plot
+- Contour plot
+- Hexbin plot
+- Polar plot
+- Parallel coordinates
 
-## 🛠 Tools & Libraries
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Plotly
+The PDF also includes short NumPy and Pandas primers (array operations,
+DataFrame inspection, cleaning, grouping and merging) used in the EDA workflow.
 
-## 📁 File Included
-- Data EDA & Visualization with all types of visualization.pdf
+## Files
 
-## 🎯 Use Case
-- College Project
-- Internship Submission
-- Resume & GitHub Portfolio
+| File | Description |
+|------|-------------|
+| `Data EDA & Visualization with all types of visualization.pdf` | Printed Jupyter notebooks (47 pages) with code and outputs |
+| `requirements.txt` | Python packages used in the notebooks |
+
+## Datasets
+
+The Pandas section of the PDF reads `cars_data.csv` and a few related CSV
+files that are **not stored in this repository**. The chart examples build
+their own data with NumPy and run without any external files.
+
+## How to run
+
+```bash
+pip install -r requirements.txt
+jupyter notebook
+```
+
+## Tools
+
+Python, NumPy, Pandas, Matplotlib, Seaborn, Plotly
+
+## Use cases
+
+- College project
+- Internship submission
+- Resume and GitHub portfolio
